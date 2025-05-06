@@ -29,7 +29,7 @@ Este portfólio foi desenvolvido para mostrar projetos, habilidades e experiênc
 1. Clone o repositório:
    ```bash
    git clone [url-do-repositorio]
-   cd psjvictor-folio-minimal
+   cd folio-prototype
    ```
 
 2. Instale as dependências:

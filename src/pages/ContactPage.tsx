@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { Layout } from "@/components/Layout";
 import { SectionHeading } from "@/components/SectionHeading";
@@ -136,7 +135,7 @@ const ContactPage = () => {
                       <h3 className="font-medium">Email</h3>
                       <a 
                         href="mailto:jvictor.pereira.santos@gmail.com" 
-                        className="text-muted-foreground hover:text-foreground transition-colors"
+                        className="text-muted-foreground hover:text-foreground transition-colors break-all"
                       >
                         jvictor.pereira.santos@gmail.com
                       </a>

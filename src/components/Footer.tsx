@@ -9,7 +9,7 @@ export function Footer() {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <Link to="/" className="text-xl font-mono font-semibold">
-              &lt; psJvictor.dev &gt;
+              &lt; dev.psJvictor &gt;
             </Link>
             <p className="text-sm text-muted-foreground mt-2">
               Fullstack developer passionate about creating exceptional digital experiences.
@@ -46,7 +46,7 @@ export function Footer() {
         </div>
         
         <div className="border-t border-border mt-6 pt-6 text-center text-sm text-muted-foreground">
-          &copy; {new Date().getFullYear()} psJvictor. All rights reserved.
+          &copy; {new Date().getFullYear()} J. Victor. All rights reserved.
         </div>
       </div>
     </footer>

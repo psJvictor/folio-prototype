@@ -38,7 +38,7 @@ export function Navbar() {
     >
       <div className="container flex items-center justify-between py-4">
         <Link to="/" className="text-xl md:text-2xl font-mono font-semibold">
-          &lt; psJvictor.dev &gt;
+          &lt; dev.psJvictor &gt;
         </Link>
 
         {/* Desktop Navigation */}
