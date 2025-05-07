@@ -6,7 +6,6 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "postbuild": "cp dist/index.html dist/404.html && echo \"(function() { const currentPath = window.location.pathname.replace('/folio-prototype', ''); window.location.href = '/folio-prototype/?currentRoute=' + currentPath.slice(1); })();\" > dist/redirect.js && touch dist/.nojekyll",
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview"
