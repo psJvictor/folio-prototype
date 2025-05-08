@@ -18,8 +18,8 @@ export const projects: ProjectType[] = [
     shortDescription: "Modern portfolio website built with React and Tailwind CSS",
     description: "A responsive portfolio website showcasing my projects and skills. Built with React, TypeScript, and Tailwind CSS. Features dark/light mode, smooth animations, and responsive design.",
     tags: ["React", "TypeScript", "Tailwind CSS", "Vite"],
-    githubUrl: "https://github.com/psJvictor/psjvictor-folio-minimal",
-    liveUrl: "https://psjvictor.dev",
+    githubUrl: "https://github.com/psJvictor/folio-prototype",
+    liveUrl: "https://dev.psjvictor.com",
     coverImage: "https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     featured: false
   },
@@ -30,7 +30,7 @@ export const projects: ProjectType[] = [
     description: "A complete e-commerce solution with product listings, shopping cart, checkout process, and admin dashboard. Built with React, Node.js, Express, and MongoDB. Features include user authentication, product management, and order processing.",
     tags: ["React", "Node.js", "Express", "MongoDB", "Redux"],
     githubUrl: " https://github.com/psJvictor/cart-hub-genesis",
-    liveUrl: "https://example.com",
+    liveUrl: "https://cart-hub-genesis.vercel.app/",
     coverImage: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     featured: true
   },

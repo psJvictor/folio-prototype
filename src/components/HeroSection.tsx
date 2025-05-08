@@ -9,7 +9,7 @@ export function HeroSection() {
       <div className="container">
         <div className="flex flex-col items-start max-w-3xl animate-fade-in">
           <p className="text-lg font-mono text-muted-foreground mb-4">
-            Hello, I'm
+            Hello World! I'm
           </p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
             <span className="block mb-2">João Victor</span>
