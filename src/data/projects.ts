@@ -41,6 +41,7 @@ export const projects: ProjectType[] = [
     description: "A barber shop booking and services management application. Features include booking, service management, and customer management. Built with React, Node.js, Express, and MongoDB.",
     tags: ["React", "Node.js", "Express", "Supabase", "Tailwind CSS"],
     githubUrl: "https://github.com/psJvictor/barbershop-booking-manager",
+    liveUrl: "https://barbershop-booking-manager.vercel.app",
     coverImage: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     featured: true
   },
@@ -50,8 +51,8 @@ export const projects: ProjectType[] = [
     shortDescription: "Real-time weather forecasting application",
     description: "A weather application providing real-time weather information and forecasts. Features include current conditions, 5-day forecast, location search, and temperature unit conversion. Built with React and OpenWeather API.",
     tags: ["React", "API Integration", "CSS", "JavaScript"],
-    githubUrl: "https://github.com",
-    liveUrl: "https://example.com",
+    githubUrl: "https://github.com/psJvictor/temp-tracker-today",
+    liveUrl: "https://temp-tracker-today.vercel.app",
     coverImage: "https://images.unsplash.com/photo-1531297484001-80022131f5a1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
     featured: true
   },
