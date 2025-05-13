@@ -58,7 +58,7 @@ const HomePage = () => {
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden">
               <img 
-                src="https://demo-source.imgix.net/puppy.jpg" 
+                src="/dist/images/temp_image.png"
                 alt="Developer working on laptop" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />

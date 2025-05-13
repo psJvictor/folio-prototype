@@ -84,7 +84,7 @@ const AboutPage = () => {
             <div className="sticky top-24">
               <div className="rounded-lg overflow-hidden mb-8">
                 <img 
-                  src="https://demo-source.imgix.net/puppy.jpg" 
+                  src="/dist/images/temp_image.png"
                   alt="João Victor" 
                   className="w-full h-auto rounded-lg"
                 />
