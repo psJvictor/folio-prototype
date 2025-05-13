@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Layout } from "@/components/Layout";
@@ -59,7 +58,7 @@ const HomePage = () => {
             </div>
             <div className="md:w-1/2 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" 
+                src="https://demo-source.imgix.net/puppy.jpg" 
                 alt="Developer working on laptop" 
                 className="w-full h-auto rounded-lg shadow-lg"
               />

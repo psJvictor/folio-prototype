@@ -6,6 +6,11 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Github, Linkedin, Mail } from "lucide-react";
 import { toast } from "sonner";
+import emailjs from '@emailjs/browser';
+
+const EMAILJS_SERVICE_ID = "service_gzuhu1p"; 
+const EMAILJS_TEMPLATE_ID = "template_du6udge"; 
+const EMAILJS_PUBLIC_KEY = "Uw_koOuhd-GTKl8W-"; 
 
 const ContactPage = () => {
   // Reset scroll position when the page loads
@@ -29,21 +34,46 @@ const ContactPage = () => {
     setFormData((prev) => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     
-    // Simulate form submission
-    setTimeout(() => {
-      toast.success("Message sent successfully! I'll get back to you soon.");
-      setFormData({
-        name: "",
-        email: "",
-        subject: "",
-        message: "",
-      });
+    try {
+      // Preparar os parâmetros do template
+      const templateParams = {
+        to_email: "jvictor.pereira.santos@gmail.com",
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+      };
+      
+      // Enviar o email usando EmailJS
+      const response = await emailjs.send(
+        EMAILJS_SERVICE_ID,
+        EMAILJS_TEMPLATE_ID,
+        templateParams,
+        EMAILJS_PUBLIC_KEY
+      );
+      
+      if (response.status === 200) {
+        toast.success("Message sent successfully! I'll get back to you soon.");
+        // Limpar o formulário após o envio
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      } else {
+        throw new Error("Failed to send message");
+      }
+    } catch (error) {
+      console.error("Error sending email:", error);
+      toast.error("Unable to send your message. Please try again later.");
+    } finally {
       setIsSubmitting(false);
-    }, 1500);
+    }
   };
 
   return (
