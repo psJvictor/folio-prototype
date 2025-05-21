@@ -4,6 +4,7 @@ import { Link, useLocation } from "react-router-dom";
 import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const navLinks = [
   { path: "/", label: "Home" },
@@ -60,6 +61,7 @@ export function Navbar() {
             ))}
           </ul>
           <ThemeToggle />
+          <LanguageSwitcher />
         </nav>
 
         {/* Mobile Navigation */}

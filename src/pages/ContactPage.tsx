@@ -5,18 +5,21 @@ import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Github, Linkedin, Mail } from "lucide-react";
+import { useTranslation} from "react-i18next";
 import { toast } from "sonner";
 import emailjs from '@emailjs/browser';
 
-const EMAILJS_SERVICE_ID = "service_gzuhu1p"; 
-const EMAILJS_TEMPLATE_ID = "template_du6udge"; 
-const EMAILJS_PUBLIC_KEY = "Uw_koOuhd-GTKl8W-"; 
+const EMAILJS_SERVICE_ID = import.meta.env.VITE_EMAILJS_SERVICE_ID;
+const EMAILJS_TEMPLATE_ID = import.meta.env.VITE_EMAILJS_TEMPLATE_ID;
+const EMAILJS_PUBLIC_KEY = import.meta.env.VITE_EMAILJS_PUBLIC_KEY;
 
 const ContactPage = () => {
   // Reset scroll position when the page loads
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
+
+  const { t } = useTranslation();
 
   const [formData, setFormData] = useState({
     name: "",

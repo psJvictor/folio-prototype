@@ -1,0 +1,25 @@
+{
+  "contact": {
+    "title": "Entre em Contato",
+    "description": "Tem alguma pergunta ou quer trabalhar junto? Entre em contato usando o formulário abaixo ou através das minhas redes sociais.",
+    "form": {
+      "name": "Nome",
+      "email": "Email",
+      "subject": "Assunto",
+      "message": "Mensagem",
+      "submit": "Enviar Mensagem",
+      "sending": "Enviando...",
+      "success": "Mensagem enviada com sucesso! Retornarei em breve.",
+      "error": "Não foi possível enviar sua mensagem. Tente novamente mais tarde."
+    },
+    "info": {
+      "title": "Informações de Contato",
+      "email": "Email",
+      "location": "Localização",
+      "socials": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+      }
+    }
+  }
+}
