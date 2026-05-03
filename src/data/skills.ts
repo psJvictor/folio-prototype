@@ -1,60 +1,44 @@
 
 export interface SkillCategory {
   name: string;
+  key: string;
   skills: string[];
 }
 
 export const skillCategories: SkillCategory[] = [
   {
-    name: "Frontend",
-    skills: [
-      "HTML5", 
-      "CSS3", 
-      "JavaScript", 
-      "TypeScript", 
-      "React", 
-      "Next.js", 
-      "Tailwind CSS", 
-      "Styled-components", 
-      "Redux",
-      "Vue.js",
-    ]
+    name: "Languages & Frameworks",
+    key: "languages",
+    skills: ["Node.js", "NestJS", "Express", "Java", "Spring", "Python", "Django", "Ruby on Rails", "TypeScript", "Vue.js"]
   },
   {
-    name: "Backend",
-    skills: [
-      "Node.js", 
-      "Express", 
-      "NestJS", 
-      "Django", 
-      "Flask", 
-      "RESTful APIs", 
-      "Python",
-      "GraphQL"
-    ]
+    name: "Architecture",
+    key: "architecture",
+    skills: ["Microservices", "Serverless", "Event-Driven", "Distributed Systems", "System Design", "API Design"]
   },
   {
-    name: "Database",
-    skills: [
-      "MongoDB", 
-      "PostgreSQL", 
-      "MySQL", 
-      "Firebase", 
-      "Redis",
-      "Prisma", 
-      "Mongoose"
-    ]
+    name: "Databases & Indexers",
+    key: "databases",
+    skills: ["PostgreSQL", "MySQL", "MongoDB", "SQLServer", "CassandraDB", "ElasticSearch", "Hive", "Redis"]
   },
   {
-    name: "DevOps & Tools",
-    skills: [
-      "Git", 
-      "Docker", 
-      "AWS",  
-      "CI/CD", 
-      "Jest", 
-      "Webpack", 
-      "Vite"
-    ]
+    name: "Messaging & Streaming",
+    key: "messaging",
+    skills: ["Kafka", "RabbitMQ", "AWS SQS"]
+  },
+  {
+    name: "Cloud & DevOps",
+    key: "devops",
+    skills: ["AWS", "GCP", "Azure", "Docker", "Kubernetes", "CI/CD"]
+  },
+  {
+    name: "Testing & Observability",
+    key: "testing",
+    skills: ["Jest", "Sentry", "DataDog", "TDD"]
+  },
+  {
+    name: "Best Practices",
+    key: "practices",
+    skills: ["DDD", "SOLID", "DRY", "Clean Architecture", "Code Review"]
   }
 ];
