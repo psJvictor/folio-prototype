@@ -5,18 +5,20 @@ import { ThemeToggle } from "./ThemeToggle";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-
-const navLinks = [
-  { path: "/", label: "Home" },
-  { path: "/about", label: "About" },
-  { path: "/projects", label: "Projects" },
-  { path: "/contact", label: "Contact" },
-];
+import { useTranslation } from "react-i18next";
 
 export function Navbar() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { t } = useTranslation();
+
+  const navLinks = [
+    { path: "/", label: t("nav.home") },
+    { path: "/about", label: t("nav.about") },
+    { path: "/projects", label: t("nav.projects") },
+    { path: "/contact", label: t("nav.contact") },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -32,7 +34,7 @@ export function Navbar() {
   }, [location]);
 
   return (
-    <header 
+    <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled ? "bg-background/80 backdrop-blur-md shadow-sm" : "bg-transparent"
       }`}
@@ -47,11 +49,11 @@ export function Navbar() {
           <ul className="flex items-center space-x-8">
             {navLinks.map((link) => (
               <li key={link.path}>
-                <Link 
-                  to={link.path} 
+                <Link
+                  to={link.path}
                   className={`link-underline ${
-                    location.pathname === link.path 
-                      ? "text-foreground font-medium" 
+                    location.pathname === link.path
+                      ? "text-foreground font-medium"
                       : "text-muted-foreground hover:text-foreground"
                   }`}
                 >
@@ -67,9 +69,9 @@ export function Navbar() {
         {/* Mobile Navigation */}
         <div className="flex items-center md:hidden">
           <ThemeToggle />
-          <Button 
-            variant="ghost" 
-            size="icon" 
+          <Button
+            variant="ghost"
+            size="icon"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
             className="ml-2"
           >
@@ -85,11 +87,11 @@ export function Navbar() {
             <ul className="flex flex-col space-y-4">
               {navLinks.map((link) => (
                 <li key={link.path}>
-                  <Link 
-                    to={link.path} 
+                  <Link
+                    to={link.path}
                     className={`block py-2 ${
-                      location.pathname === link.path 
-                        ? "text-foreground font-medium" 
+                      location.pathname === link.path
+                        ? "text-foreground font-medium"
                         : "text-muted-foreground"
                     }`}
                   >
@@ -98,6 +100,9 @@ export function Navbar() {
                 </li>
               ))}
             </ul>
+            <div className="mt-4">
+              <LanguageSwitcher />
+            </div>
           </nav>
         </div>
       )}

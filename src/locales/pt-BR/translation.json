@@ -1,12 +1,142 @@
 {
+  "nav": {
+    "home": "Início",
+    "about": "Sobre",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá Mundo! Eu sou",
+    "role": "Engenheiro de Software Backend",
+    "description": "Construo sistemas escaláveis, aplicações distribuídas e plataformas de alto impacto. Especializado em engenharia backend, arquitetura em nuvem e design de sistemas.",
+    "viewWork": "Ver Meu Trabalho",
+    "getInTouch": "Entre em Contato"
+  },
+  "footer": {
+    "tagline": "Engenheiro de Software Backend apaixonado por construir sistemas escaláveis e plataformas de alto impacto.",
+    "rights": "Todos os direitos reservados."
+  },
+  "home": {
+    "featuredProjects": "Projetos em Destaque",
+    "viewAllProjects": "Ver Todos os Projetos",
+    "aboutMe": "Sobre Mim",
+    "aboutDescription": "Engenheiro de Software Backend com mais de 6 anos de experiência construindo sistemas escaláveis, aplicações distribuídas e plataformas empresariais. Atuo em todo o ciclo de desenvolvimento de software, desde design de arquitetura até infraestrutura em nuvem e confiabilidade em produção.",
+    "learnMore": "Saiba Mais Sobre Mim",
+    "imgAlt": "Desenvolvedor trabalhando no laptop",
+    "cta": {
+      "title": "Vamos Trabalhar Juntos",
+      "description": "Tem um projeto em mente? Estou disponível para trabalho freelance ou posições em tempo integral.",
+      "button": "Entre em Contato"
+    }
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "bio1": "Olá! Sou João Victor, Engenheiro de Software Backend com mais de 6 anos de experiência focado em construir e projetar sistemas escaláveis, aplicações distribuídas e plataformas de alto impacto.",
+    "bio2": "Atuo em todo o ciclo de desenvolvimento de software, desde design de arquitetura e engenharia backend até infraestrutura em nuvem, integrações e confiabilidade em produção, ajudando empresas a transformar fluxos de trabalho complexos em soluções de software manuteníveis e escaláveis.",
+    "bio3": "Ao longo da minha carreira, projetei e desenvolvi plataformas SaaS, sistemas internos empresariais e aplicações orientadas a dados, integrando sistemas legados, construindo APIs, automatizando fluxos e melhorando a eficiência operacional através de boas práticas de engenharia.",
+    "bio4": "Meu trabalho combina engenharia backend, arquitetura em nuvem e design de sistemas, com forte ênfase em desempenho, escalabilidade, observabilidade e princípios de arquitetura limpa.",
+    "education": "Educação & Experiência",
+    "imgAlt": "João Victor Santos",
+    "skills": "Habilidades Técnicas",
+    "exp": {
+      "job1": {
+        "title": "Engenheiro de Software",
+        "company": "Speedio • Fev 2026 - Presente",
+        "description": "Projetei, desenvolvi e mantive uma plataforma SaaS B2B escalável focada em geração de leads e prospecção comercial. Desenvolvi aplicações frontend com Vue 3, Node.js e TypeScript e APIs backend com Ruby on Rails e ElasticSearch para busca e indexação avançadas. Atuei como líder técnico no squad, contribuindo com decisões de arquitetura, code reviews e boas práticas de engenharia."
+      },
+      "job2": {
+        "title": "Engenheiro de Software",
+        "company": "WDC Networks • Jun 2025 - Fev 2026",
+        "description": "Arquitetei e desenvolvi uma aplicação web empresarial para unificar fluxos de trabalho internos e sistemas de negócio com Next.js/Vite e NestJS. Integrei sistemas legados incluindo ERPs e Azure Active Directory. Otimizei fluxos operacionais internos, reduzindo o tempo médio de execução de tarefas em aproximadamente 80%."
+      },
+      "job3": {
+        "title": "Engenheiro de Software",
+        "company": "Comunix LTDA • Set 2023 - Jun 2025",
+        "description": "Desenvolvi funcionalidades para uma plataforma de RH, incluindo sistema de ponto por reconhecimento facial, validação de geofencing e gestão de banco de horas. Implementei pipelines de upload de vídeo com AWS S3 e trabalhei com arquitetura orientada a eventos com RabbitMQ e Redis. Liderei a migração da plataforma do Node.js 12 para o Node.js 18."
+      },
+      "job4": {
+        "title": "Engenheiro de Dados",
+        "company": "Banco Bradesco S.A • Set 2022 - Ago 2023",
+        "description": "Desenvolvi uma plataforma unificada de análise de crédito baseada em processamento massivo de dados. Construí e mantive pipelines de dados com Python, PySpark e Apache Spark em um Data Lake baseado em Hive. Implementei processamento assíncrono com AWS SQS e utilizei Redis como camada de cache para reduzir latência em operações críticas."
+      },
+      "edu1": {
+        "title": "Bacharelado em Sistemas de Informação",
+        "institution": "Faculdade de Informática e Administração Paulista (FIAP) • 2022",
+        "description": ""
+      },
+      "edu2": {
+        "title": "Pós-graduação em Engenharia e Arquitetura de Software",
+        "institution": "Faculdade de Informática e Administração Paulista (FIAP) • Em andamento",
+        "description": ""
+      }
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "description": "Uma vitrine do meu trabalho em diferentes domínios, desde aplicações web até APIs e muito mais. Cada projeto representa um desafio e solução diferentes.",
+    "viewProject": "Ver Projeto",
+    "backToProjects": "Voltar aos Projetos",
+    "overview": "Visão Geral do Projeto",
+    "overviewText": "Este projeto demonstra minhas habilidades em {{tags}}. Focei em criar uma base de código limpa e manutenível com as melhores práticas modernas.",
+    "technicalDetails": "Detalhes Técnicos",
+    "technicalText": "A arquitetura da aplicação segue as melhores práticas do setor para escalabilidade e desempenho. Os principais recursos técnicos incluem:",
+    "features": {
+      "responsive": "Design responsivo para todos os tamanhos de tela",
+      "performance": "Desempenho otimizado com renderização eficiente",
+      "cleanCode": "Arquitetura e padrões de código limpo",
+      "testing": "Suite de testes abrangente"
+    },
+    "links": "Links do Projeto",
+    "sourceCode": "Ver Código Fonte",
+    "liveDemo": "Ver Demo ao Vivo",
+    "skillsUsed": "Habilidades Utilizadas",
+    "moreProjects": "Mais Projetos",
+    "viewAll": "Ver Todos os Projetos",
+    "items": {
+      "portfolio-website": {
+        "title": "Website Portfólio",
+        "shortDescription": "Website portfólio moderno construído com React e Tailwind CSS",
+        "description": "Um website portfólio responsivo mostrando meus projetos e habilidades. Construído com React, TypeScript e Tailwind CSS. Recursos incluem modo escuro/claro, animações suaves e design responsivo."
+      },
+      "e-commerce-app": {
+        "title": "Plataforma E-commerce",
+        "shortDescription": "Plataforma de e-commerce completa com painel de administração",
+        "description": "Uma solução completa de e-commerce com listagens de produtos, carrinho de compras, processo de checkout e painel de administração. Construído com React, Node.js, Express e MongoDB. Recursos incluem autenticação de usuários, gerenciamento de produtos e processamento de pedidos."
+      },
+      "barbershop-booking-manager": {
+        "title": "Gerenciador de Agendamentos para Barbearia",
+        "shortDescription": "Aplicação de agendamento e gerenciamento de serviços para barbearia",
+        "description": "Uma aplicação de agendamento e gerenciamento de serviços para barbearia. Recursos incluem agendamento, gerenciamento de serviços e gerenciamento de clientes. Construído com React, Node.js, Express e MongoDB."
+      },
+      "weather-app": {
+        "title": "Aplicação de Clima",
+        "shortDescription": "Aplicação de previsão do tempo em tempo real",
+        "description": "Uma aplicação de clima fornecendo informações meteorológicas e previsões em tempo real. Recursos incluem condições atuais, previsão de 5 dias, busca por localização e conversão de unidades de temperatura. Construído com React e API OpenWeather."
+      },
+      "chat-application": {
+        "title": "Chat em Tempo Real",
+        "shortDescription": "Aplicação de mensagens em tempo real com múltiplos canais",
+        "description": "Uma aplicação de chat em tempo real permitindo que usuários criem canais, enviem mensagens e compartilhem arquivos. Recursos incluem autenticação de usuários, indicadores de status online e notificações de mensagens. Construído com React, Socket.io e Node.js."
+      },
+      "blog-platform": {
+        "title": "Plataforma de Blog",
+        "shortDescription": "Sistema de gerenciamento de conteúdo para blogueiros",
+        "description": "Uma plataforma de blog permitindo que usuários criem, editem e publiquem artigos. Recursos incluem edição de rich text, categorias, tags e comentários. Construído com Next.js, Prisma e PostgreSQL."
+      }
+    }
+  },
   "contact": {
     "title": "Entre em Contato",
     "description": "Tem alguma pergunta ou quer trabalhar junto? Entre em contato usando o formulário abaixo ou através das minhas redes sociais.",
     "form": {
       "name": "Nome",
+      "namePlaceholder": "Seu nome",
       "email": "Email",
+      "emailPlaceholder": "Seu email",
       "subject": "Assunto",
+      "subjectPlaceholder": "Assunto",
       "message": "Mensagem",
+      "messagePlaceholder": "Sua mensagem",
       "submit": "Enviar Mensagem",
       "sending": "Enviando...",
       "success": "Mensagem enviada com sucesso! Retornarei em breve.",
@@ -16,10 +146,25 @@
       "title": "Informações de Contato",
       "email": "Email",
       "location": "Localização",
+      "locationValue": "São Paulo, Brasil",
       "socials": {
         "github": "GitHub",
         "linkedin": "LinkedIn"
       }
     }
+  },
+  "notFound": {
+    "title": "Página Não Encontrada",
+    "description": "A página que você está procurando não existe ou foi movida.",
+    "backHome": "Voltar ao Início"
+  },
+  "skills": {
+    "languages": "Linguagens & Frameworks",
+    "architecture": "Arquitetura",
+    "databases": "Bancos de Dados & Indexadores",
+    "messaging": "Mensageria & Streaming",
+    "devops": "Nuvem & DevOps",
+    "testing": "Testes & Observabilidade",
+    "practices": "Boas Práticas"
   }
 }

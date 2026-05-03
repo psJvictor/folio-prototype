@@ -1,0 +1,170 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello World! I'm",
+    "role": "Backend Software Engineer",
+    "description": "I build scalable systems, distributed applications and high-impact business platforms. Specialized in backend engineering, cloud architecture and system design.",
+    "viewWork": "View My Work",
+    "getInTouch": "Get In Touch"
+  },
+  "footer": {
+    "tagline": "Backend Software Engineer passionate about building scalable systems and high-impact platforms.",
+    "rights": "All rights reserved."
+  },
+  "home": {
+    "featuredProjects": "Featured Projects",
+    "viewAllProjects": "View All Projects",
+    "aboutMe": "About Me",
+    "aboutDescription": "Backend Software Engineer with 6+ years of experience building scalable systems, distributed applications and enterprise platforms. I work across the full software development lifecycle, from architecture design to cloud infrastructure and production reliability.",
+    "learnMore": "Learn More About Me",
+    "imgAlt": "Developer working on laptop",
+    "cta": {
+      "title": "Let's Work Together",
+      "description": "Have a project in mind? I'm currently available for freelance work or full-time positions.",
+      "button": "Get In Touch"
+    }
+  },
+  "about": {
+    "title": "About Me",
+    "bio1": "Hello! I'm João Victor, a Backend Software Engineer with 6+ years of experience focused on building and designing scalable systems, distributed applications and high-impact business platforms.",
+    "bio2": "I work across the full software development lifecycle, from architecture design and backend engineering to cloud infrastructure, integrations and production reliability, helping companies transform complex business workflows into maintainable and scalable software solutions.",
+    "bio3": "Throughout my career, I have designed and developed SaaS platforms, enterprise internal systems and data-driven applications, integrating legacy systems, building APIs, automating workflows and improving operational efficiency through engineering best practices.",
+    "bio4": "My work combines backend engineering, cloud architecture and system design, with a strong emphasis on performance, scalability, observability and clean architecture principles.",
+    "education": "Education & Experience",
+    "imgAlt": "João Victor Santos",
+    "skills": "Technical Skills",
+    "exp": {
+      "job1": {
+        "title": "Software Engineer",
+        "company": "Speedio • Feb 2026 - Present",
+        "description": "Designed, developed and maintained a scalable B2B SaaS platform focused on lead generation and commercial prospecting. Built modern frontend applications using Vue 3, Node.js and TypeScript. Developed backend APIs using Ruby on Rails with ElasticSearch for advanced search and indexing. Acted as a technical leader within the squad, contributing to architecture decisions, code reviews and engineering best practices."
+      },
+      "job2": {
+        "title": "Software Engineer",
+        "company": "WDC Networks • Jun 2025 - Feb 2026",
+        "description": "Architected and developed an enterprise web application to unify internal workflows and business systems using Next.js/Vite and NestJS. Integrated legacy enterprise systems including ERP platforms and Azure Active Directory. Optimized internal operational workflows, reducing average task execution time by approximately 80%."
+      },
+      "job3": {
+        "title": "Software Engineer",
+        "company": "Comunix LTDA • Sep 2023 - Jun 2025",
+        "description": "Developed features for an HR platform including a facial recognition-based clock-in system, geofencing validation and overtime management. Implemented video upload pipelines using AWS S3 and worked with event-driven architecture using RabbitMQ and Redis for caching. Led the platform migration from Node.js 12 to Node.js 18."
+      },
+      "job4": {
+        "title": "Data Engineer",
+        "company": "Banco Bradesco S.A • Sep 2022 - Aug 2023",
+        "description": "Developed a unified credit analysis platform based on large-scale data processing. Built and maintained data pipelines using Python, PySpark and Apache Spark on a Hive-based Data Lake. Implemented asynchronous processing using AWS SQS and utilized Redis as a caching layer to reduce latency in critical data access operations."
+      },
+      "edu1": {
+        "title": "Bachelor's in Information Systems",
+        "institution": "Faculty of Informatics and Administration Paulista (FIAP) • 2022",
+        "description": ""
+      },
+      "edu2": {
+        "title": "Postgraduate in Software Engineering and Architecture",
+        "institution": "Faculty of Informatics and Administration Paulista (FIAP) • In Progress",
+        "description": ""
+      }
+    }
+  },
+  "projects": {
+    "title": "Projects",
+    "description": "A showcase of my work across different domains, from web applications to APIs and more. Each project represents a different challenge and solution.",
+    "viewProject": "View Project",
+    "backToProjects": "Back to Projects",
+    "overview": "Project Overview",
+    "overviewText": "This project demonstrates my skills in {{tags}}. I focused on creating a clean, maintainable codebase with modern best practices.",
+    "technicalDetails": "Technical Details",
+    "technicalText": "The application architecture follows industry best practices for scalability and performance. Key technical features include:",
+    "features": {
+      "responsive": "Responsive design for all screen sizes",
+      "performance": "Optimized performance with efficient rendering",
+      "cleanCode": "Clean code architecture and patterns",
+      "testing": "Comprehensive testing suite"
+    },
+    "links": "Project Links",
+    "sourceCode": "View Source Code",
+    "liveDemo": "View Live Demo",
+    "skillsUsed": "Skills Used",
+    "moreProjects": "More Projects",
+    "viewAll": "View All Projects",
+    "items": {
+      "portfolio-website": {
+        "title": "Portfolio Website",
+        "shortDescription": "Modern portfolio website built with React and Tailwind CSS",
+        "description": "A responsive portfolio website showcasing my projects and skills. Built with React, TypeScript, and Tailwind CSS. Features dark/light mode, smooth animations, and responsive design."
+      },
+      "e-commerce-app": {
+        "title": "E-commerce Platform",
+        "shortDescription": "Full-featured e-commerce platform with admin dashboard",
+        "description": "A complete e-commerce solution with product listings, shopping cart, checkout process, and admin dashboard. Built with React, Node.js, Express, and MongoDB. Features include user authentication, product management, and order processing."
+      },
+      "barbershop-booking-manager": {
+        "title": "Barbershop Booking Manager",
+        "shortDescription": "A barber shop booking and services management application",
+        "description": "A barber shop booking and services management application. Features include booking, service management, and customer management. Built with React, Node.js, Express, and MongoDB."
+      },
+      "weather-app": {
+        "title": "Weather Application",
+        "shortDescription": "Real-time weather forecasting application",
+        "description": "A weather application providing real-time weather information and forecasts. Features include current conditions, 5-day forecast, location search, and temperature unit conversion. Built with React and OpenWeather API."
+      },
+      "chat-application": {
+        "title": "Real-time Chat",
+        "shortDescription": "Real-time messaging application with multiple channels",
+        "description": "A real-time chat application allowing users to create channels, send messages, and share files. Features include user authentication, online status indicators, and message notifications. Built with React, Socket.io, and Node.js."
+      },
+      "blog-platform": {
+        "title": "Blog Platform",
+        "shortDescription": "Content management system for bloggers",
+        "description": "A blog platform allowing users to create, edit, and publish articles. Features include rich text editing, categories, tags, and comments. Built with Next.js, Prisma, and PostgreSQL."
+      }
+    }
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "description": "Have a question or want to work together? Feel free to contact me using the form below or through my social media channels.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "subject": "Subject",
+      "subjectPlaceholder": "Subject",
+      "message": "Message",
+      "messagePlaceholder": "Your message",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Message sent successfully! I'll get back to you soon.",
+      "error": "Unable to send your message. Please try again later."
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "location": "Location",
+      "locationValue": "São Paulo, Brazil",
+      "socials": {
+        "github": "GitHub",
+        "linkedin": "LinkedIn"
+      }
+    }
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "skills": {
+    "languages": "Languages & Frameworks",
+    "architecture": "Architecture",
+    "databases": "Databases & Indexers",
+    "messaging": "Messaging & Streaming",
+    "devops": "Cloud & DevOps",
+    "testing": "Testing & Observability",
+    "practices": "Best Practices"
+  }
+}
