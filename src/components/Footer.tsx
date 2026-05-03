@@ -30,7 +30,7 @@ export function Footer() {
               <Github size={20} />
             </a>
             <a
-              href="https://linkedin.com/in/joão-victor-santos"
+              href="https://www.linkedin.com/in/joão-victor-santos-303b471bb"
               target="_blank"
               rel="noopener noreferrer"
               className="p-2 rounded-full bg-background hover:bg-primary hover:text-primary-foreground transition-colors"

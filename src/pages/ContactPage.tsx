@@ -185,12 +185,12 @@ const ContactPage = () => {
                     <div>
                       <h3 className="font-medium">{t("contact.info.socials.linkedin")}</h3>
                       <a
-                        href="https://linkedin.com/in/joão-victor-santos"
+                        href="https://www.linkedin.com/in/joão-victor-santos-303b471bb"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="text-muted-foreground hover:text-foreground transition-colors"
                       >
-                        linkedin.com/in/joão-victor-santos
+                        linkedin.com/in/joão-victor-santos-303b471bb
                       </a>
                     </div>
                   </div>
